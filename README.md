@@ -24,19 +24,19 @@ git clone https://github.com/your-username/SystemMonitor.git
 
 Настройка виртуального окружения и установка зависимостей:
 
-bash
-
+```
 cd SystemMonitor
 python -m venv venv
 source venv/bin/activate  # для Linux/macOS
 venv\Scripts\activate     # для Windows
 pip install -r requirements.txt
+```
 
 Запуск приложения:
 
-bash
-
+```
 uvicorn main:app --reload
+```
 
 Приложение будет доступно по адресу http://localhost:8000.
 Использование
@@ -73,13 +73,6 @@ API эндпоинты:
         Реализован с использованием Dash для интерактивного отображения данных.
         Обновление данных в реальном времени.
 
-Тестирование
-
-Для запуска тестов используйте следующую команду:
-
-bash
-
-pytest
 
 Структура проекта
 
